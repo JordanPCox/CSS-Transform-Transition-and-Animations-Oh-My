@@ -1,1 +1,13 @@
-
+button {
+    background-color: ghostwhite;
+    border: none;
+  }
+  
+  button:hover {
+    animation: colorChange 2s;
+    color: ghostwhite;
+  }
+  @keyframes colorChange {
+    0% { background-color: ghostwhite; color: black; }
+    100% { background-color: cornflowerblue; color: ghostwhite;}
+  }
